@@ -1,0 +1,20 @@
+{
+	"name": "yemanya/fewo-bundle",
+	"description": "Manage customer data in Contao",
+	"homepage": "https://fewo-yemanya.de",
+	"type": "contao-bundle",
+	"license": "MIT",
+	"version": "1.0.0",
+	"require": {
+		"php": ">=7.0",
+		"contao/core-bundle": "^4.7"
+	},
+	"autoload": {
+		"psr-4": {
+			"Yemanya\\FeWoBundle\\": "src"
+		}
+	},
+	"extra": {
+		"contao-manager-plugin": "Yemanya\\FeWoBundle\\ContaoManager\\Plugin"
+	}
+}
