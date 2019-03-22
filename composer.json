@@ -8,7 +8,7 @@
 	"require": {
 		"php": ">=7.0",
 		"contao/core-bundle": "^4.7",
-		"terminal42/dca-wizard": "^2.*"
+		"terminal42/dca-wizard": "2.*"
 	},
 	"autoload": {
 		"psr-4": {
